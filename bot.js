@@ -23,7 +23,7 @@ if(message.content.startsWith('.roleta')){
 
 let role = message.guild.roles.find("name", "Admin");
 if(message.content.startsWith(".delete")){
-    msgDel = 10;
+    msgDel = 100;
     let numberMessages = parseInt(msgDel);
     message.channel.fetchMessages({limit: numberMessages}).then(messages => message.channel.bulkDelete(messages));
 }
