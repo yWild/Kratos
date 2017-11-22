@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login('MzYwNzUyNjI5ODI1MTQyNzk0.DKaO0Q.YxBEIN2H7uYpN4oebsTKxff_X7Y');
+bot.login('0D5mhDCP-cXrZh8yHouPV-ccinJsDsMj');
 
 bot.on('message', message => {
 let responseObject = {
